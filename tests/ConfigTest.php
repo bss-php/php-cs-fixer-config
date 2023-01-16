@@ -1,11 +1,11 @@
 <?php
 
-namespace bss-php\Fixer\Tests;
+namespace bssphp\Fixer\Tests;
 
 use PhpCsFixer\Finder;
-use bss-php\Fixer\Config;
-use bss-php\Fixer\Tests\Support\AdditionalTestPreset;
-use bss-php\Fixer\Tests\Support\TestPreset;
+use bssphp\Fixer\Config;
+use bssphp\Fixer\Tests\Support\AdditionalTestPreset;
+use bssphp\Fixer\Tests\Support\TestPreset;
 
 class ConfigTest extends TestCase
 {

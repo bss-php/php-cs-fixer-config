@@ -1,6 +1,6 @@
 <?php
 
-namespace bss-php\Fixer\Presets;
+namespace bssphp\Fixer\Presets;
 
 use PhpCsFixer\Finder;
 

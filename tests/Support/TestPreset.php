@@ -1,8 +1,8 @@
 <?php
 
-namespace bss-php\Fixer\Tests\Support;
+namespace bssphp\Fixer\Tests\Support;
 
-use bss-php\Fixer\Presets\AbstractPreset;
+use bssphp\Fixer\Presets\AbstractPreset;
 
 class TestPreset extends AbstractPreset
 {

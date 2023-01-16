@@ -1,5 +1,5 @@
 {
-    "name": "bss-php/php-cs-fixer-config",
+    "name": "bssphp/php-cs-fixer-config",
     "description": "Personal PHP-CS-Fixer Configuration",
     "license": "MIT",
     "type": "library",
@@ -19,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "bss-php\\Fixer\\": "src"
+            "bssphp\\Fixer\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "bss-php\\Fixer\\Tests\\": "tests"
+            "bssphp\\Fixer\\Tests\\": "tests"
         }
     },
     "scripts": {

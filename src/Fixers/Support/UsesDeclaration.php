@@ -1,6 +1,6 @@
 <?php
 
-namespace bss-php\Fixer\Fixers\Support;
+namespace bssphp\Fixer\Fixers\Support;
 
 final class UsesDeclaration
 {

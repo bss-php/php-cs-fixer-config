@@ -1,6 +1,6 @@
 <?php
 
-namespace bss-php\Fixer\Fixers;
+namespace bssphp\Fixer\Fixers;
 
 use PhpCsFixer\Fixer\FixerInterface;
 use PhpCsFixer\FixerDefinition\CodeSample;
@@ -10,7 +10,7 @@ use PhpCsFixer\Tokenizer\Analyzer\NamespacesAnalyzer;
 use PhpCsFixer\Tokenizer\Analyzer\NamespaceUsesAnalyzer;
 use PhpCsFixer\Tokenizer\Token;
 use PhpCsFixer\Tokenizer\Tokens;
-use bss-php\Fixer\Fixers\Support\UsesDeclaration;
+use bssphp\Fixer\Fixers\Support\UsesDeclaration;
 use Symfony\Component\Finder\Finder;
 
 final class PhpDocConvertClassesToFqcn implements FixerInterface
@@ -44,7 +44,7 @@ function foo(Foo $foo): array {}
 
     public function getName(): string
     {
-        return 'bss-php/phpdoc_fqcn';
+        return 'bssphp/phpdoc_fqcn';
     }
 
     public function getPriority(): int
@@ -59,7 +59,7 @@ function foo(Foo $foo): array {}
 
     public function fix(\SplFileInfo $file, Tokens $tokens): void
     {
-        /** @var \bss-php\Fixer\Fixers\Support\UsesDeclaration[] $uses */
+        /** @var \bssphp\Fixer\Fixers\Support\UsesDeclaration[] $uses */
         $uses = [];
 
         // Get `uses` declarations from current file

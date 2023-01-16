@@ -1,9 +1,9 @@
 <?php
 
-namespace bss-php\Fixer\Tests;
+namespace bssphp\Fixer\Tests;
 
-use bss-php\Fixer\Config;
-use bss-php\Fixer\Tests\Support\TestPreset;
+use bssphp\Fixer\Config;
+use bssphp\Fixer\Tests\Support\TestPreset;
 
 class DynamicPresetTest extends TestCase
 {

@@ -1,16 +1,16 @@
 # PHP-CS-Fixer Configuration
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/bss-php/PHP-CS-Fixer-Config.svg?style=flat-square)](https://packagist.org/packages/bss-php/php-cs-fixer-config)
-[![Total Downloads](https://img.shields.io/packagist/dt/bss-php/PHP-CS-Fixer-Config.svg?style=flat-square)](https://packagist.org/packages/bss-php/php-cs-fixer-config)
-[![License](https://img.shields.io/packagist/l/bss-php/PHP-CS-Fixer-Config.svg?style=flat-square)](https://packagist.org/packages/bss-php/php-cs-fixer-config)
-[![GitHub Build Status](https://img.shields.io/github/workflow/status/bss-php/PHP-CS-Fixer-Config/Tests?style=flat-square)](https://github.com/bss-php/PHP-CS-Fixer-Config/actions)
+[![Latest Stable Version](https://img.shields.io/packagist/v/bssphp/PHP-CS-Fixer-Config.svg?style=flat-square)](https://packagist.org/packages/bssphp/php-cs-fixer-config)
+[![Total Downloads](https://img.shields.io/packagist/dt/bssphp/PHP-CS-Fixer-Config.svg?style=flat-square)](https://packagist.org/packages/bssphp/php-cs-fixer-config)
+[![License](https://img.shields.io/packagist/l/bssphp/PHP-CS-Fixer-Config.svg?style=flat-square)](https://packagist.org/packages/bssphp/php-cs-fixer-config)
+[![GitHub Build Status](https://img.shields.io/github/workflow/status/bssphp/PHP-CS-Fixer-Config/Tests?style=flat-square)](https://github.com/bssphp/PHP-CS-Fixer-Config/actions)
 
 Personal [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) wrapper, preset management and custom rules.
 
 ## Installation
 
 ```
-composer require bss-php/php-cs-fixer-config --dev
+composer require bssphp/php-cs-fixer-config --dev
 ```
 
 **Notice**: You also need to [install the PHP-CS-Fixer package](https://github.com/FriendsOfPHP/PHP-CS-Fixer#installation) itself if you need a local installation with executable in your `vendor/bin` folder.
@@ -22,10 +22,10 @@ This package has been created to streamline configuration management for multipl
 #### `.php-cs-fixer.dist.php`
 
 ```php
-return bss-php\Fixer\Config::make()
+return bssphp\Fixer\Config::make()
     ->in(__DIR__)
     ->preset(
-        new bss-php\Fixer\Presets\PrettyPHP()
+        new bssphp\Fixer\Presets\PrettyPHP()
     )
     ->out();
 ```
@@ -42,7 +42,7 @@ You can easily create your own presets by extending the [**AbstractPreset**](src
 In case you only need some tweaks for specific projects - which won't deserve an own preset - there are various methods you can make us of.
 
 ```php
-$config = bss-php\Fixer\Config::make();
+$config = bssphp\Fixer\Config::make();
 
 $config->allowRisky(true);                  // Allow risky rules.
 $config->withRules(['...']);                // Set additional rules
@@ -56,7 +56,7 @@ $config->excludeDirectories(['...']);       // Add single or many directories to
 
 ```php
 $fixer->withRules([
-    'bss-php/phpdoc_fqcn' => true,
+    'bssphp/phpdoc_fqcn' => true,
 ]);
 ```
 
@@ -94,7 +94,7 @@ function foo(Foo $foo): array {}
 ### Access the config and finder instances
 
 ```php
-return bss-php\Fixer\Config::make()
+return bssphp\Fixer\Config::make()
     // ...
     ->finderCallback(static function (PhpCsFixer\Finder $finder): void {
         // ...

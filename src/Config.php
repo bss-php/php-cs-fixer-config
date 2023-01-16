@@ -1,12 +1,12 @@
 <?php
 
-namespace bss-php\Fixer;
+namespace bssphp\Fixer;
 
 use PhpCsFixer\Config as BaseConfig;
 use PhpCsFixer\Finder;
-use bss-php\Fixer\Fixers\PhpDocConvertClassesToFqcn;
-use bss-php\Fixer\Presets\AbstractPreset;
-use bss-php\Fixer\Presets\DynamicPreset;
+use bssphp\Fixer\Fixers\PhpDocConvertClassesToFqcn;
+use bssphp\Fixer\Presets\AbstractPreset;
+use bssphp\Fixer\Presets\DynamicPreset;
 
 final class Config
 {
@@ -26,7 +26,7 @@ final class Config
     private $workingDir = null;
 
     /**
-     * @var \bss-php\Fixer\Presets\AbstractPreset[]
+     * @var \bssphp\Fixer\Presets\AbstractPreset[]
      */
     private $presets;
 
@@ -48,7 +48,7 @@ final class Config
     /**
      * Set the preset.
      *
-     * @param \bss-php\Fixer\Presets\AbstractPreset $preset
+     * @param \bssphp\Fixer\Presets\AbstractPreset $preset
      *
      * @return $this
      */
@@ -66,7 +66,7 @@ final class Config
     /**
      * Add a preset.
      *
-     * @param \bss-php\Fixer\Presets\AbstractPreset $preset
+     * @param \bssphp\Fixer\Presets\AbstractPreset $preset
      *
      * @return $this
      */

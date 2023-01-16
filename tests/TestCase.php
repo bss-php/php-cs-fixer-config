@@ -1,6 +1,6 @@
 <?php
 
-namespace bss-php\Fixer\Tests;
+namespace bssphp\Fixer\Tests;
 
 use PHPUnit\Framework\TestCase as BaseTestCase;
 
