@@ -3,9 +3,9 @@
 // Ladies and gentlemen fasten your seatbelts.
 // We're going deep.
 
-return romanzipp\Fixer\Config::make()
+return bss-php\Fixer\Config::make()
     ->in(__DIR__)
     ->preset(
-        new romanzipp\Fixer\Presets\PrettyLaravel()
+        new bss-php\Fixer\Presets\PrettyLaravel()
     )
     ->out();

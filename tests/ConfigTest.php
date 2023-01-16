@@ -1,11 +1,11 @@
 <?php
 
-namespace romanzipp\Fixer\Tests;
+namespace bss-php\Fixer\Tests;
 
 use PhpCsFixer\Finder;
-use romanzipp\Fixer\Config;
-use romanzipp\Fixer\Tests\Support\AdditionalTestPreset;
-use romanzipp\Fixer\Tests\Support\TestPreset;
+use bss-php\Fixer\Config;
+use bss-php\Fixer\Tests\Support\AdditionalTestPreset;
+use bss-php\Fixer\Tests\Support\TestPreset;
 
 class ConfigTest extends TestCase
 {

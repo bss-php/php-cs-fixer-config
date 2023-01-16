@@ -1,8 +1,8 @@
 <?php
 
-namespace romanzipp\Fixer\Tests\Support;
+namespace bss-php\Fixer\Tests\Support;
 
-use romanzipp\Fixer\Presets\AbstractPreset;
+use bss-php\Fixer\Presets\AbstractPreset;
 
 class TestPreset extends AbstractPreset
 {

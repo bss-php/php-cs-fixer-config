@@ -1,6 +1,6 @@
 <?php
 
-namespace romanzipp\Fixer\Presets;
+namespace bss-php\Fixer\Presets;
 
 /**
  * @internal

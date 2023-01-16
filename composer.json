@@ -1,13 +1,14 @@
 {
-    "name": "romanzipp/php-cs-fixer-config",
+    "name": "bss-php/php-cs-fixer-config",
     "description": "Personal PHP-CS-Fixer Configuration",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "romanzipp",
-            "email": "ich@ich.wtf",
-            "homepage": "https://ich.wtf"
+            "name": "bss",
+            "email": "beanstack.systems@gmail.com",
+            "homepage": "http://beanstack.in/"
+        }
         }
     ],
     "require": {
@@ -19,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "romanzipp\\Fixer\\": "src"
+            "bss-php\\Fixer\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "romanzipp\\Fixer\\Tests\\": "tests"
+            "bss-php\\Fixer\\Tests\\": "tests"
         }
     },
     "scripts": {

@@ -1,6 +1,6 @@
 <?php
 
-namespace romanzipp\Fixer\Fixers\Support;
+namespace bss-php\Fixer\Fixers\Support;
 
 final class UsesDeclaration
 {

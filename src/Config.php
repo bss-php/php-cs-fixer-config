@@ -1,12 +1,12 @@
 <?php
 
-namespace romanzipp\Fixer;
+namespace bss-php\Fixer;
 
 use PhpCsFixer\Config as BaseConfig;
 use PhpCsFixer\Finder;
-use romanzipp\Fixer\Fixers\PhpDocConvertClassesToFqcn;
-use romanzipp\Fixer\Presets\AbstractPreset;
-use romanzipp\Fixer\Presets\DynamicPreset;
+use bss-php\Fixer\Fixers\PhpDocConvertClassesToFqcn;
+use bss-php\Fixer\Presets\AbstractPreset;
+use bss-php\Fixer\Presets\DynamicPreset;
 
 final class Config
 {
@@ -26,7 +26,7 @@ final class Config
     private $workingDir = null;
 
     /**
-     * @var \romanzipp\Fixer\Presets\AbstractPreset[]
+     * @var \bss-php\Fixer\Presets\AbstractPreset[]
      */
     private $presets;
 
@@ -48,7 +48,7 @@ final class Config
     /**
      * Set the preset.
      *
-     * @param \romanzipp\Fixer\Presets\AbstractPreset $preset
+     * @param \bss-php\Fixer\Presets\AbstractPreset $preset
      *
      * @return $this
      */
@@ -66,7 +66,7 @@ final class Config
     /**
      * Add a preset.
      *
-     * @param \romanzipp\Fixer\Presets\AbstractPreset $preset
+     * @param \bss-php\Fixer\Presets\AbstractPreset $preset
      *
      * @return $this
      */
