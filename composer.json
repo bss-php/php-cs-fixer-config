@@ -7,8 +7,7 @@
         {
             "name": "bss",
             "email": "beanstack.systems@gmail.com",
-            "homepage": "http://beanstack.in/"
-        }
+            "homepage": "http://beanstack.in/"        
         }
     ],
     "require": {
